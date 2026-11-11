@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2025-26 3D Games | GameDev Showcase</title>
-    <link rel="stylesheet" href="css/style.css">
-   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta name="description" content="A showcase of 3D games built by Kerry College students across the 2024-25 and 2025-26 academic years.">
+    <title>3D Games | GameDev Showcase</title>
+    <link rel="stylesheet" href="css/style.css?v=20261005">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <!-- Google tag (gtag.js) -->
@@ -22,162 +23,147 @@
 </script>
 <body>
 
-    <header>
+    <header class="site-header">
         <nav class="navbar">
-            <div class="nav-header">
-                <a href="index.html"><img class="nav-logo"  src="images/logo.png" alt="Kerry College"></a><h1>Kerry College Game Design</h1>
+            <div class="nav-brand">
+                <div class="nav-brand-logos">
+                    <a href="index.html" aria-label="Kerry College home"><img class="k-logo" src="images/logo.png" alt="Kerry College logo"></a>
+                    <img class="etb-logo" src="images/KerryETB_Logo.png" alt="Kerry ETB logo">
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <span class="dropdown">
-                        <button class="dropbtn">2D Games</button>
-                        <div class="dropdown-content">
-                            <div><a href="2025-2d.html" class="nav-link">'26 2D Games</a></div>
-                            <div><a href="2024-2d.html" class="nav-link">'25 2D Games</a></div>
-                        </div>
-                    </span>
-                </li>
-                <li class="nav-item">
-                    <span class="dropdown">
-                        <button class="dropbtn">3D Games</button>
-                        <div class="dropdown-content">
-                            <div><a href="2025-3d.html" class="nav-link">'26 3D Games</a></div>
-                            <div><a href="2024-3d.html" class="nav-link">'25 3D Games</a></div>
-                        </div>
-                    </span>
 
-                </li>
-               <!--<li class="nav-item"><a href="2026-2d.html" class="nav-link">App Design</a></li> -->
-               
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="course_Info.html" class="nav-link">Course Info</a></li>
+                <li><a href="2025-2d.html" class="nav-link">2D Games</a></li>
+                <li><a href="2025-3d.html" class="nav-link active" aria-current="page">3D Games</a></li>
+                <!-- <li><a href="course_Info.html#apply" class="apply-btn">Apply Now →</a></li> -->
             </ul>
-            <div class="hamburger">
+
+            <div class="hamburger" role="button" tabindex="0" aria-label="Open menu" aria-expanded="false">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
         </nav>
     </header>
+
     <main>
         <section class="page-header">
-            <h1 class="gold_text">2025-26 3D Games</h1>
-            <p>A collection of 3D games created during the 2025-26 academic year.</p>
-             <a href="#" id="compatToggle" style="color: var(--accent-color); text-decoration: underline; font-size: 0.9rem; display: block; margin-bottom: 1rem;">Read Compatibility Information</a>
-                <p id="compatNOte" style="display: none; font-size: 0.9rem; margin-bottom: 1rem;">
-                    These student games were built using Unity and are optimized for PC play. 
-                    <br> Compatibility is intended for Windows-based systems and has not been tested against other platforms.</p>
-           
+            <h1 class="gold_text">3D Games</h1>
+            <p>Every 3D game built by Kerry College students across the 2024-25 and 2025-26 academic years.</p>
+            <a href="#" id="compatToggle" style="color: var(--teal); text-decoration: underline; font-size: 0.9rem; display: block; margin-bottom: 1rem;">Read Compatibility Information</a>
+            <p id="compatNOte" style="display: none; font-size: 0.9rem; margin-bottom: 1rem;">
+                These student games were built using Unity and are optimized for PC play.
+                <br> Compatibility is intended for Windows-based systems and has not been tested against other platforms.</p>
         </section>
 
-          <section class="content-section">
+        <!-- ================= 2025-26 ================= -->
+        <section class="content-section">
+            <h2 class="section-title">2025-26 Games</h2>
             <div class="game-grid">
+                <!-- Game: Zombie -->
                 <div class="game-card">
-                    <a href="https://daniel-so2023.itch.io/zombie" target="_blank"><img src="images/Danylo3DGame.png" alt="Zombie"></a>
+                    <a href="https://daniel-so2023.itch.io/zombie" target="_blank" rel="noopener"><img src="images/Danylo3DGame.png" alt="Zombie"></a>
                     <div class="card-content">
                         <h3>Zombie <br> by Danylo Viskushenko</h3>
                         <p>Explore this eerie forest house. Reach the bunker before the zombie gets you!!!</p>
-                         <span class="game-tag">2026 3D</span>
-                    </div>
-                </div>
-                              
-               <!-- Game 2: Replace wit your game info -->
-                <div class="game-card">
-                    <a href="https://jerahdun.itch.io/canyon-run" target="_blank"><img src="images/canonrun.png" alt="Canon Run"></a>
-                    <div class="card-content">
-                        <h3>Canyon Run &#127939; <br> by Jack Erahdun</h3>
-                        <p>Survive the canon and grab the crystals. <br> Use the left and right arrows to switch camera and direction in one go :)</p>
-                        <span class="game-tag">2026 2D</span>
-                    </div>
-                </div>
-
-                
-                <div class="game-card">
-                    <a href="https://softestcobalt.itch.io/knife-leap" target="_blank"><img src="images/Bodhan3D.png" alt="Knife Leap"></a>
-                    <div class="card-content">
-                        <h3>Knife Leap <br> by Bohdan Yaravenko</h3>
-                        <p>Control a leaping knife blade moving across suspended platforms. Slice collectible objects, avoid falling, and reach the finish point with the highest possible score. Simples.<br><br>Click the mouse to keep the knife moving!!</p>
                         <span class="game-tag">2026 3D</span>
                     </div>
                 </div>
 
-               
-                
-                <!-- Add more game cards as needed -->
+                <!-- Game: Canyon Run -->
+                <div class="game-card">
+                    <a href="https://jerahdun.itch.io/canyon-run" target="_blank" rel="noopener"><img src="images/canonrun.png" alt="Canyon Run"></a>
+                    <div class="card-content">
+                        <h3>Canyon Run <br> by Jack Erahdun</h3>
+                        <p>Survive the canon and grab the crystals. <br> Use the left and right arrows to switch camera and direction in one go :)</p>
+                        <span class="game-tag">2026 3D</span>
+                    </div>
+                </div>
 
-                 <div class="game-card">
-                   <a href="https://luceox30.itch.io/rule-of-cool" target="_blank"><img src="images/lucspreferredimage.png" alt="Deepest Darkness"></a>
+                <!-- Game: Knife Leap -->
+                <div class="game-card">
+                    <a href="https://softestcobalt.itch.io/knife-leap" target="_blank" rel="noopener"><img src="images/Bodhan3D.png" alt="Knife Leap"></a>
+                    <div class="card-content">
+                        <h3>Knife Leap <br> by Bohdan Yaravenko</h3>
+                        <p>Control a leaping knife blade moving across suspended platforms. Slice collectible objects, avoid falling, and reach the finish point with the highest possible score. Simples. <br><br> Click the mouse to keep the knife moving!!</p>
+                        <span class="game-tag">2026 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: Rule of Cool -->
+                <div class="game-card">
+                    <a href="https://luceox30.itch.io/rule-of-cool" target="_blank" rel="noopener"><img src="images/lucspreferredimage.png" alt="Rule of Cool"></a>
                     <div class="card-content">
                         <h3>Rule of Cool <br> by Luc Abbots</h3>
-                        <p>Fight progressively numerous amounts of enemy tanks and jets in this arcade style shooter! 
-                            Gameplay instructions found within!</p>
+                        <p>Fight progressively numerous amounts of enemy tanks and jets in this arcade style shooter! Gameplay instructions found within!</p>
+                        <span class="game-tag">2025 3D</span>
+                    </div>
+                </div>
+<!-- Game: Escape Run -->
+                <div class="game-card">
+                    <a href="https://eugenesinko.itch.io/escape-run" target="_blank" rel="noopener"><img src="images/Yevhan3D.png" alt="Escape Run"></a>
+                    <div class="card-content">
+                        <h3>Escape Run <br> by Yevhen Sinko</h3>
+                        <p>Run, collect coins and avoid obstacles, all while collecting points and staying alive :) <br><br> Press 'W' to jump.</p>
+                        <span class="game-tag">2026 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: Parkhour -->
+                <div class="game-card">
+                    <a href="https://swanhow.itch.io/parkour" target="_blank" rel="noopener"><img src="images/Lukas3D.png" alt="Parkhour"></a>
+                    <div class="card-content">
+                        <h3>Parkhour <br> by Lukas Pauliukonis</h3>
+                        <p>Run and jump as fast as you can to reach the checkpoints in this fun platformer.</p>
+                        <span class="game-tag">2026 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: Desert Treasure -->
+                <div class="game-card">
+                    <a href="https://play.unity.com/en/games/5358ebb6-eda2-4869-a83f-8e620404281f/webgl" target="_blank" rel="noopener"><img src="images/Seamus3D.png" alt="Desert Treasure"></a>
+                    <div class="card-content">
+                        <h3>Desert Treasure <br> by Seamus Creagh O' Brien</h3>
+                        <p>60 second Coin dash in the desert - how many can you grab!!!!</p>
+                        <span class="game-tag">2026 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: Car Game -->
+                <div class="game-card">
+                    <a href="https://danzo322.itch.io/car-game" target="_blank" rel="noopener"><img src="images/CArGame.png" alt="Car Game"></a>
+                    <div class="card-content">
+                        <h3>Car Game <br> by Danylo Chymakadze</h3>
+                        <p>Drive the car, collect the coins, dodge the trees.</p>
                         <span class="game-tag">2025 3D</span>
                     </div>
                 </div>
 
-                 <div class="game-card">
-                    <a href="https://eugenesinko.itch.io/escape-run" target="_blank"><img src="images/Yevhan3D.png" alt="Run"></a>
-                    <div class="card-content">
-                        <h3>Escape Run <br> by Yevhen Sinko</h3>
-                        <p>Run, collect coins and avoid obstacles, all while collecting points and staying alive :) <br><br> Press 'W' to jump.</p>
-                         <span class="game-tag">2026 3D</span>
-                    </div>
-                </div>
-
+                <!-- Game: Music Space Jump -->
                 <div class="game-card">
-                    <a href="https://swanhow.itch.io/parkour" target="_blank"><img src="images/Lukas3D.png" alt="Floppy Borg"></a>
-                    <div class="card-content">
-                        <h3>Parkhour <br> by Lukas Pauliukonis</h3>
-                        <p>Run and jump as fast as you can to reach the checkpoints in this fun platformer.</p>
-                         <span class="game-tag">2026 3D</span>
-                    </div>
-                </div>
-
-              
-               
-                
-                <!-- Add more game cards as needed -->
-                <div class="game-card">
-                    <a href="https://play.unity.com/en/games/5358ebb6-eda2-4869-a83f-8e620404281f/webgl" target="_blank"><img src="images/Seamus3D.png" alt="Flock & Scroll"></a>
-                    <div class="card-content">
-                        <h3>Desert Treasure <br> by Seamus Creagh O' Brien</h3>
-                        <p>60 second Coin dash in the desert - how many can you grab!!!!</p>
-                         <span class="game-tag">2026 3D</span>
-                    </div>
-                </div>
-
-               <!-- Game 2: Replace with your game info -->
-                <div class="game-card">
-                    <a href="https://danzo322.itch.io/car-game" target="_blank"><img src="images/CArGame.png" alt="Car Game"></a>
-                    <div class="card-content">
-                        <h3>Car Game <br> by Danylo Chymakadze</h3>
-                        <p>Drive the car, collect the coins, dodge the trees &#128540;</p>
-                         <span class="game-tag">2025 3D</span>
-                    </div>
-                </div>
-
-
-                <!-- Game 3: Replace with your game info -->
-                <div class="game-card">
-                  <a href="https://play.unity.com/en/games/be9274d1-bd01-462b-ac09-0d1b48ccf5b6/musicspacejump" target="_blank"><img src="images/MSP.png" alt="Soul's Jump"></a>
+                    <a href="https://play.unity.com/en/games/be9274d1-bd01-462b-ac09-0d1b48ccf5b6/musicspacejump" target="_blank" rel="noopener"><img src="images/MSP.png" alt="Music Space Jump"></a>
                     <div class="card-content">
                         <h3>Music Space Jump <br> by Billy Joel Pagayonan</h3>
                         <p>Imagine a platformer set in the quiet corners of the galaxy, where every jump is a note and every level is a song :)</p>
+                        <span class="game-tag">2026 3D</span>
                     </div>
                 </div>
-                
-                <!-- Add more game cards as needed -->
 
-                 <div class="game-card">
-                  <a href="https://alvidnl.itch.io/alien-collect" target="_blank"><img src="images/Filip3D.png" alt="Knight's Adventure"></a>
+                <!-- Game: Desert Alien -->
+                <div class="game-card">
+                    <a href="https://alvidnl.itch.io/alien-collect" target="_blank" rel="noopener"><img src="images/Filip3D.png" alt="Desert Alien"></a>
                     <div class="card-content">
                         <h3>Desert Alien <br> by Filip Tvrtkovic</h3>
-                        <p>Bounce your brave knight over every pointy menace—because the only way to the finish is up and over the sharp stuff.</p>
-                         <span class="game-tag">2026 2D</span>
+                        <p>Bounce your brave knight over every pointy menace — because the only way to the finish is up and over the sharp stuff.</p>
+                        <span class="game-tag">2026 3D</span>
                     </div>
-                </div>         
+                </div>
 
-                <!-- Game 2: Replace with your game info -->
+                <!-- Game: Maze Survival -->
                 <div class="game-card">
-                    <a href="https://play.unity.com/en/games/60798029-09a4-4d90-8fc2-72a5ee5832b7/true-scary-maze-survival" target="_blank"><img src="images/scarymaze.png" alt="Maze Survival"></a>
+                    <a href="https://play.unity.com/en/games/60798029-09a4-4d90-8fc2-72a5ee5832b7/true-scary-maze-survival" target="_blank" rel="noopener"><img src="images/scarymaze.png" alt="Maze Survival"></a>
                     <div class="card-content">
                         <h3>Maze Survival <br> by Bartosz Rajczakowski</h3>
                         <p>Survive as long as you can in a flooded horror maze.</p>
@@ -185,80 +171,137 @@
                     </div>
                 </div>
 
-                <!-- Game 3: Replace with your game info -->
+                <!-- Game: Crystal -->
                 <div class="game-card">
-                  <a href="https://projectrost.itch.io/cristalw1" target="_blank"><img src="images/Rost3D.png" alt="Crystal"></a>
+                    <a href="https://projectrost.itch.io/cristalw1" target="_blank" rel="noopener"><img src="images/Rost3D.png" alt="Crystal"></a>
                     <div class="card-content">
                         <h3>Crystal <br> by Rostyslav Rusin</h3>
                         <p>Can you gather the 10 floating crystals?</p>
-                         <span class="game-tag">2026 3D</span>
+                        <span class="game-tag">2026 3D</span>
                     </div>
-                </div>                
-                <!-- Add more game cards as needed -->
-
-            </div>
-        </section>
-
-         <section class="content-section">
-            <div class="game-grid">
+                </div>
+<!-- Game: Paw of Lava -->
                 <div class="game-card">
-                     <a href="https://tohonxknight.itch.io/paw-of-lava" target="_blank"><img src="images/PAWOFLAVA.png" alt="Meterion"></a>
+                    <a href="https://tohonxknight.itch.io/paw-of-lava" target="_blank" rel="noopener"><img src="images/PAWOFLAVA.png" alt="Paw of Lava"></a>
                     <div class="card-content">
                         <h3>Paw of Lava <br> by Anton Horobets</h3>
                         <p>Help your cat jump the platforms before they melt into the burning lava....</p>
-                         <span class="game-tag">2026 3D</span>
+                        <span class="game-tag">2026 3D</span>
                     </div>
                 </div>
-              
-                
+
+                <!-- Game: Jank Pinball -->
                 <div class="game-card">
-                    <a href="https://play.unity.com/en/games/e6bf7c57-5d37-43c6-835e-e43008d699e1/jank-pinball" target="_blank"><img src="images/FionnPinBall.png" alt="Cat Golf"></a>
+                    <a href="https://play.unity.com/en/games/e6bf7c57-5d37-43c6-835e-e43008d699e1/jank-pinball" target="_blank" rel="noopener"><img src="images/FionnPinBall.png" alt="Jank Pinball"></a>
                     <div class="card-content">
                         <h3>Jank Pinball <br> by Fionn O' Shea</h3>
                         <p>Reach 500 points in this cat themed pinball game to win!!!</p>
-                         <p>Note: Due to game size, this may be better played as a downloaded game, link here:  <a href="https://epic-games-456.itch.io/jank-pinball" target="_blank">Download Jank Pinball</a></p>
+                        <p>Note: Due to game size, this may be better played as a downloaded game, link here: <a href="https://epic-games-456.itch.io/jank-pinball" target="_blank" rel="noopener">Download Jank Pinball</a></p>
                         <span class="game-tag">2026 3D</span>
                     </div>
                 </div>
 
-                <!-- Game 3: Replace with your game info -->
+                <!-- Game: Rolling for Peace -->
                 <div class="game-card">
-                    <a href="https://chantur.itch.io/rolling-for-peace" target="_blank"><img src="images/DAnny3D.png" alt="Kanye Quest 2"></a>
+                    <a href="https://chantur.itch.io/rolling-for-peace" target="_blank" rel="noopener"><img src="images/DAnny3D.png" alt="Rolling for Peace"></a>
                     <div class="card-content">
                         <h3>Rolling for Peace <br> by Danny Thompson</h3>
-                        <p>Roll the ball, grab the coins, enjoy the peace and..... don't fall off &#128540;</p>
+                        <p>Roll the ball, grab the coins, enjoy the peace and..... don't fall off.</p>
                         <span class="game-tag">2026 3D</span>
                     </div>
-                </div>       
-                <!-- Add more game cards as needed -->
+                </div>
 
+                <!-- Game: Crazy Runner -->
                 <div class="game-card">
-                     <a href="https://cotteda.itch.io/crazy-runner" target="_blank"><img src="images/CRAZYRUNNER.png" alt="Runnin' Ronin"></a>
+                    <a href="https://cotteda.itch.io/crazy-runner" target="_blank" rel="noopener"><img src="images/CRAZYRUNNER.png" alt="Crazy Runner"></a>
                     <div class="card-content">
-                        <h3>Crazy Runner...  <br> by Daniel Cotter</h3>
+                        <h3>Crazy Runner... <br> by Daniel Cotter</h3>
                         <p>Run fast collect coins and dont fall off the road!!!!</p>
                         <span class="game-tag">2026 3D</span>
                     </div>
                 </div>
-
-                <div class="game-card">
-                 
-                </div>  
-               
-                <div class="game-card">
-                 
-                </div>                
-                <!-- Add more game cards as needed -->
-               </div> 
-           
+            </div>
         </section>
 
-       
-            
+        <!-- ================= 2024-25 ================= -->
+        <section class="content-section">
+            <!--<h2 class="section-title">2024-25 Games</h2> -->
+            <div class="game-grid">
+                <!-- Game: Shera -->
+                <div class="game-card">
+                    <a href="https://sofidron.itch.io/dungeon-master" target="_blank" rel="noopener"><img src="images/vlad.png" alt="Shera"></a>
+                    <div class="card-content">
+                        <h3>Shera <br> by Vlad Kovalov</h3>
+                        <p>Navigate this adventure game and collect coins.</p>
+                        <span class="game-tag">2024 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: Forest Run -->
+                <div class="game-card">
+                    <a href="https://kseniiah.itch.io/endless-forest-runner" target="_blank" rel="noopener"><img src="images/kseniia_game.jpg" alt="Forest Run"></a>
+                    <div class="card-content">
+                        <h3>Forest Run <br> by Kseniia Honcharova</h3>
+                        <p>Run as fast as you can to collect coins in this exciting advenrture game!!</p>
+                        <span class="game-tag">2024 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: 3D Cube Path -->
+                <div class="game-card">
+                    <a href="https://kaiser-maus.itch.io/cuba-path" target="_blank" rel="noopener"><img src="images/image (2).png" alt="3D Cube Path"></a>
+                    <div class="card-content">
+                        <h3>3D Cube Path <br> by Mykhaylo Tomko</h3>
+                        <p>Can you solve these clever puzzles??</p>
+                        <span class="game-tag">2024 3D</span>
+                    </div>
+                </div>
+<!-- Game: Intruder -->
+                <div class="game-card">
+                    <a href="https://daggerfl00.itch.io/intruders" target="_blank" rel="noopener"><img src="images/Intruder_thinimg.PNG" alt="Intruder"></a>
+                    <div class="card-content">
+                        <h3>Intruder <br> by Conor Fitzgerald Horgan</h3>
+                        <p>Avoid the demon by finding your way in the dark....</p>
+                        <span class="game-tag">2024 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: Asylum Escape -->
+                <div class="game-card">
+                    <a href="https://ivanyshka.itch.io/asylum-escape" target="_blank" rel="noopener"><img src="images/intruder_ivan.png" alt="Asylum Escape"></a>
+                    <div class="card-content">
+                        <h3>Asylum Escape <br> by Ivan Chernov</h3>
+                        <p>Escape the Asylum before you are killed!</p>
+                        <span class="game-tag">2024 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: Bella's Restaurant -->
+                <div class="game-card">
+                    <a href="https://kris-2222222222.itch.io/bellas-restaurant" target="_blank" rel="noopener"><img src="images/Korina3D.png" alt="Bella's Restaurant"></a>
+                    <div class="card-content">
+                        <h3>Bella's Restaurant <br> by Korina Fogadic</h3>
+                        <p>Cane you make a bolognaise in time to win this game?</p>
+                        <span class="game-tag">2024 3D</span>
+                    </div>
+                </div>
+
+                <!-- Game: Mushroom Rush -->
+                <div class="game-card">
+                    <a href="https://sneaky-snek202.itch.io/mushroom-rush" target="_blank" rel="noopener"><img src="images/lilyMush.png" alt="Mushroom Rush"></a>
+                    <div class="card-content">
+                        <h3>Mushroom Rush <br> by Lilly O Sullivan</h3>
+                        <p>Collect Mushrooms in the cute adventure world.</p>
+                        <span class="game-tag">2024 3D</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-   <footer>
-         <div class="footer-content" id="contact">
+    <footer>
+        <div class="footer-content" id="contact">
             <div class="footer-section">
                 <h3>About Us</h3>
                 <p>Kerry College Creative Arts 2025.</p>
@@ -269,18 +312,25 @@
                 <p>Phone: (066) 712 1741</p>
             </div>
             <div class="footer-section">
+                <h3>Showcases</h3>
+                <p><a href="2025-2d.html">2D Games</a></p>
+                <p><a href="2025-3d.html">3D Games</a></p>
+                <p><a href="course_Info.html">Course Info</a></p>
+            </div>
+            <div class="footer-section">
                 <h3>Follow Us</h3>
                 <ul class="social-icons">
-                    <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
             <img src="images/etblogo.png" alt="Kerry ETB Logo" class="footer-logo">
             <p>&copy; 2025 Kerry College, CLash. All rights reserved.</p>
+            <a href="https://www.eufunds.ie" target="_blank" rel="noopener"><p>This operation is co-funded by the Government of Ireland and the European Union.</p></a>
         </div>
     </footer>
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2024-25 2D Games | GameDev Showcase</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=20261005">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,35 +22,24 @@
 </script>
 <body>
 
-   <header>
+    <header class="site-header">
         <nav class="navbar">
-              <div class="nav-header">
-                <a href="index.html"><img class="nav-logo"  src="images/logo.png" alt="Kerry College"></a><h1>Kerry College Game Design</h1>
+            <div class="nav-brand">
+                <div class="nav-brand-logos">
+                    <a href="index.html" aria-label="Kerry College home"><img class="k-logo" src="images/logo.png" alt="Kerry College logo"></a>
+                    <img class="etb-logo" src="images/KerryETB_Logo.png" alt="Kerry ETB logo">
+                </div>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <span class="dropdown">
-                        <button class="dropbtn">2D Games</button>
-                        <div class="dropdown-content">
-                            <div><a href="2025-2d.html" class="nav-link">'26 2D Games</a></div>
-                            <div><a href="2024-2d.html" class="nav-link">'25 2D Games</a></div>
-                        </div>
-                    </span>
-                </li>
-                <li class="nav-item">
-                    <span class="dropdown">
-                        <button class="dropbtn">3D Games</button>
-                        <div class="dropdown-content">
-                            <div><a href="2025-3d.html" class="nav-link">'26 3D Games</a></div>
-                            <div><a href="2024-3d.html" class="nav-link">'25 3D Games</a></div>
-                        </div>
-                    </span>
 
-                </li>
-               <!--<li class="nav-item"><a href="2026-2d.html" class="nav-link">App Design</a></li> -->
-               
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="course_Info.html" class="nav-link">Course Info</a></li>
+                <li><a href="2025-2d.html" class="nav-link active" aria-current="page">2D Games</a></li>
+                <li><a href="2025-3d.html" class="nav-link">3D Games</a></li>
+                <!-- <li><a href="course_Info.html#apply" class="apply-btn">Apply Now →</a></li> -->
             </ul>
-            <div class="hamburger">
+
+            <div class="hamburger" aria-label="Open menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
