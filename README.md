@@ -1,3 +1,3 @@
-# Assignment1Practice
-Practice Website
-This is a demonstartion of hosting a project to Github
+# Kerry College Game Design Website
+
+Demonstrating Game Design Projects from Kerry College
